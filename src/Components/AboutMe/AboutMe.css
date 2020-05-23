@@ -1,0 +1,13 @@
+span{
+    font-size: 14px;
+}
+button{
+    background: black;
+    color: #ffff;
+    border: 1px solid black;
+    margin: 10px 6px !important;
+    box-shadow: 2px 2px 5px black;
+}
+button:hover,:focus{
+    box-shadow: none;
+}

@@ -1,0 +1,27 @@
+.home-section{
+	background-image:url(../../Images/home.jpg);
+	
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:88.9vh ; 
+	/* min-height:87.9vh ;  */
+	background-position: center;
+	position: relative;
+} 
+.overlay{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	background: #000000a8
+
+}
+a:focus{
+    box-shadow: none !important;
+}
+.home-section a{
+    border: 2px solid #ffffff8f;
+    box-shadow: 4px 4px 5px #ffffff8f;
+}

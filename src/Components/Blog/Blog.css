@@ -1,0 +1,22 @@
+.blog img{
+    width: 100%;
+   height: 100%;
+}
+ 
+.blog .overlay {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+   
+}
+.blog .overlay:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009f;
+    z-index: 1;
+    transition: all .4s ease;
+}

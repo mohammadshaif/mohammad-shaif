@@ -1,0 +1,15 @@
+.about-img img{width: 45vh;
+}
+.iconText{
+    font-size: 30px !important;
+    color: #000 !important;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.iconText:hover{
+    color: rgba(0, 0, 0, 0.609) !important;
+}
+.about{
+    padding-left: 20px;
+}

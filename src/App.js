@@ -1,24 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Learning from './Components/Learning/Learning';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import NotFound from './Components/NotFound';
+import Contact from './Components/Contact/Contact';
+import Blog from './Components/Blog/Blog';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+        
+         
+            <Router>
+            <Header></Header>
+              <Switch>
+          <Route path="/home">
+              <Home></Home>
+          </Route>
+          <Route path="/about">
+              <AboutMe></AboutMe>
+          </Route>
+          <Route path="/projects">
+              <Projects></Projects>
+          </Route>
+          <Route path="/blog">
+              <Blog></Blog>
+          </Route>
+          <Route path="/contact">
+              <Contact></Contact>
+          </Route>
+          
+          <Route exact path="/">
+                <Home></Home>
+          </Route>
+          <Route path="*">
+                   <NotFound></NotFound>
+            </Route>
+        </Switch>
+      </Router>
+      
+      
     </div>
   );
 }

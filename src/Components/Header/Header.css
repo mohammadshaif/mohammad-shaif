@@ -1,0 +1,21 @@
+.menuBar{
+    background-color: black;
+}
+
+ a{
+    color: aliceblue !important;
+   font-size: larger !important ;
+      font-weight:500 !important;
+      text-decoration: none !important;
+
+}
+.menuBar a:hover{
+    color: #ffffff69 !important;
+    text-decoration: none !important;
+}
+.menuBar a:focus, a:active{
+    color: #ffffff69 !important;
+}
+.menuBar .navbar-toggler{
+    background-color: aliceblue !important;
+}
