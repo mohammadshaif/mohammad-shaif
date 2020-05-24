@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF,faGithub,faLinkedin,faMedium,faYoutube } from "@fortawesome/free-brands-svg-icons"
 const About = () => {
+    useEffect(() => {
+        document.title = "About— Mohammad Shaif"
+      }, []);
 
     return (
+        
         <div className='about' >
             <h1>Hello! <b>I'M MOHAMMAD SHAIF</b></h1>
             

@@ -5,6 +5,9 @@ import ProjectItem from './ProjectItem';
 import ProjectData from '../../FakeData/ProjectData';
 
 const Projects = () => {
+    useEffect(() => {
+        document.title = "Projects— Mohammad Shaif"
+      }, []);
  //category filter start**********************************
       //fake data
 const projects = ProjectData

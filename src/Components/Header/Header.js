@@ -8,7 +8,7 @@ const Header = () => {
         <div className='menuBar'>
             <Container>  
                 <Navbar  expand="lg">
-                    <Navbar.Brand href="/"><img src={sign} alt="signature"/></Navbar.Brand>
+                    <Navbar.Brand><Link to='/'><img src={sign} alt="signature"/></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse style={{background:'#ffff !important'}} id="basic-navbar-nav">
                     <Nav className="ml-auto">

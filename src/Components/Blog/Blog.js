@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './Blog.css'
 import { Container, Row, ButtonToolbar } from 'react-bootstrap';
 import BlogItem from './BlogItem';
 import BlogData from '../../FakeData/BlogData';
 const Blog = () => {
+    
+    useEffect(() => {
+        document.title = "Blog— Mohammad Shaif"
+      }, []);
+
+
     const [blog, setBlog]=useState(BlogData)
     return (
         <div>

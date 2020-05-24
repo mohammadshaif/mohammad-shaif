@@ -7,6 +7,8 @@ button{
     border: 1px solid black;
     margin: 10px 6px !important;
     box-shadow: 2px 2px 5px black;
+    border-radius: 5px !important;
+    padding-bottom: 4.5px !important;
 }
 button:hover,:focus{
     box-shadow: none;

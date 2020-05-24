@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import './Home.css'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+    useEffect(() => {
+        document.title = "Mohammad Shaif"
+      }, []);
     return (
         <div className='home-section'>
             <div className='overlay'>
