@@ -8,7 +8,7 @@ const BlogItem = (props) => {
         <div class="col-md-6 col-sm-12  ">
             <div class=" border2 my-3 p-1 ">
                 <Row>
-                    <div class="col-md-4 col-sm-12   ">
+                    <div class="col-md-6 col-sm-12   ">
                         <div className='overlay'>
                             <img src={img} alt=""/>
                             
@@ -16,7 +16,7 @@ const BlogItem = (props) => {
                         
                     </div>
                     {/* <div className='overlay'/> */}
-                    <div class="col-md-8 col-sm-12  ">
+                    <div class="col-md-6 col-sm-12  ">
                             <p class="text-dark">{date}</p>
                             <h5>{title}</h5>
                             <p>{details}</p>

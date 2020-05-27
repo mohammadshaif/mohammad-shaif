@@ -31,7 +31,7 @@ const [category,setCategory]= useState('live')
                     <button onClick={()=>setCategory('personal')}>Personal Projects</button>
                  </div>
            
-                <div className="col-md-10 pb-5 pt-5 text-black text-justify ">
+                <div className="col-md-10 pb-5 pt-5 text-black text-justify border ">
                  
                         <Row>
                         { 

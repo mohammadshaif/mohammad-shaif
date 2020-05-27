@@ -22,7 +22,8 @@ const Home = () => {
                 </div>
                 <div className="col-md-6">
                     <div className=" text-light text-center pt-5">
-                    <Link className="btn btn-none border1 px-5 py-3  home-btn" to='/Projects'>MY PROJECTS</Link>
+                    <Link className="btn btn-none border1 px-4  py-2  home-btn" to='/Projects'>MY PROJECTS</Link>
+                    <a href="https://drive.google.com/open?id=1GaUbV1kx4d1-O5AYIND7_twCMmaiP7X8"  className="btn btn-none border1 px-4  py-2  home-btn" target="_blank">GET RESUME</a>
                     </div>
                 </div>
                 

@@ -25,3 +25,14 @@ a:focus{
     border: 2px solid #ffffff8f;
     box-shadow: 4px 4px 5px #ffffff8f;
 }
+button:focus{
+	outline:	none !important;
+}
+.home-section a{
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.home-section a:hover{
+	box-shadow: 2px 2px 3px #ffffff8f;
+	
+}

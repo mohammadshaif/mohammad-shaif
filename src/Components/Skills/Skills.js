@@ -14,7 +14,7 @@ const Skills = () => {
             <h5>Promise, Stripe, PHP, MYSQL,</h5>
             <br/>
             <h3>►Tools:  </h3>
-            <h5>GIT, Web pack, Sublime-Text 3, Netlify, HiroKu, Firebase, Visual-Studio Code, Chrome Dev Tool, WordPress etc.</h5>
+            <h5>GIT, Web pack, Sublime-Text 3, Netlify, HeroKu, Firebase, Visual-Studio Code, Chrome Dev Tool, WordPress etc.</h5>
         </div>
     );
 };

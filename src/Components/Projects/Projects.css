@@ -3,6 +3,16 @@
    height: 100%;
 }
 .project .text-dark{
-    border-top: 4px solid;
+   border-top: 4px solid #000;
+    padding-top: 10px;
 }
 
+.project .bdr {
+    box-shadow: 10px 8px 15px 5px grey;
+}
+.project .bdr:hover {
+    box-shadow: 4px 4px 5px 0px grey;
+}
+.project button{
+    margin-right: 15px !important;
+}
