@@ -83,8 +83,7 @@ const Contact = () => {
                 name="contact"
                 method="post"
                 data-netlify="true"
-                data-netlify-honeypot="bot-field" autoComplete={false.toString()}
-                data-netlify-recaptcha="true">
+                data-netlify-honeypot="bot-field" autoComplete={false.toString()}>
                 
                   <div className="row">
                     <div className="col-12 col-md-6 form-group">
@@ -98,10 +97,6 @@ const Contact = () => {
                     </div> */}
                     <div className="col-12 form-group form-message">
                       <textarea className={' form-control text-dark'} onChange={handleOnchange} value={formState.message} id="contact-message" name="message" placeholder="Message" rows="3"></textarea>
-                    </div>
-                    <div className="col-12 form-group form-message">
-                    <div data-netlify-recaptcha="true"></div>
-                    
                     </div>
                       <div className="col-12 form-submit">
                       <button  id="contact-submit" type="submit">Send Message</button>
