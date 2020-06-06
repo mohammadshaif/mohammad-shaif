@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -14,8 +14,15 @@ import NotFound from './Components/NotFound';
 import Contact from './Components/Contact/Contact';
 import Blog from './Components/Blog/Blog';
 import Projects from './Components/Projects/Projects';
+import ReactGa from 'react-ga';
 
 function App() {
+  useEffect(()=>{
+    ReactGa.initialize('UA-168270329-1')
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  },[])
+
+
   return (
     <div className='app'>
         

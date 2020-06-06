@@ -7,7 +7,7 @@ const ProjectData=[
         url:"http://ekusheyboimela.com/"
 
     },
-    {   title:'Luster Host — Hosting Providing Web App',
+    {   title:'Luster Host — Hosting Providing Web Application',
     category:'live',
     tech:'HTML, CSS, JavaScript, Bootstrap',
     img:'https://miro.medium.com/max/1400/1*n6Bug9UnuefgZowQ8-Nd9w.png',
@@ -29,7 +29,7 @@ const ProjectData=[
     tech:'HTML,JavaScript, Bootstrap, WordPress ',
     img:'https://miro.medium.com/max/1400/1*iVbFwpZrzwHOYktDGAHBVA.png',
     details:"Doctor's portfolio & web application for appointment management. Every day 5-6 patients take appoint.",
-    url:"http://drmoshiur.com/"
+    url:"https://mohammadshaif.github.io/dr-moshiur/"
 
     },
     {   title:'CCFGV — Non Government Organization WebSite',
@@ -91,6 +91,15 @@ const ProjectData=[
     details:"Can pick the date and time and fix an appointment with your doctor. Includes manageable admin section for the doctor, where doctors can view       and allow their appointments",
     url:"https://doctors-portal7.firebaseapp.com/",
     git:'https://github.com/mohammadshaif/Doctors-Portal'
+
+    },
+    {   title:'Air CNC — A Travel Booking App',
+    category:'personal',
+    tech:'React.js, Node.js, HTML,Bootstrap, MongoDB, Heroku',
+    img:'https://miro.medium.com/max/1400/1*09M4vdQVQ14LDnTpAjqgXQ.png',
+    details:"This is a travel web application for booking a hotel room and air tickets.Tickets can be found by searching the location from here.",
+    url:"https://aircnc1.netlify.app/",
+    git:'https://github.com/mohammadshaif/air-cnc-clint.git'
 
     },
     {   title:'Linked Out — A Simple React App ',
