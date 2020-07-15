@@ -102,6 +102,24 @@ const ProjectData=[
     git:'https://github.com/mohammadshaif/air-cnc-clint.git'
 
     },
+    {   title:'Responsive Portfolio Site — Made For Theme Fisher Company ',
+    category:'personal',
+    tech:'HTML,Css, Bootstrap, Responsive Design',
+    img:'https://miro.medium.com/max/700/1*q6ZQhLKobWBkTWOj76szwQ.png',
+    details:"Simple Corporate Portfolio Digital Agency Template Website. ",
+    url:"https://mohammadshaif.github.io/minilab/",
+    git:'https://github.com/mohammadshaif/minilab.git'
+
+    },
+    {   title:'Responsive E-Learning Site — Made For Rokomari Company',
+    category:'personal',
+    tech:'HTML,Css, Bootstrap,Responsive Design',
+    img:'https://miro.medium.com/max/700/1*1qWCAHFRq73lck9Fg1CkJg.png',
+    details:"Simple e-Learning HTMLTemplate Website for Rokomari Company.",
+    url:"https://mohammadshaif.github.io/rokomari/",
+    git:'https://github.com/mohammadshaif/rokomari.git'
+
+    },
     {   title:'Linked Out — A Simple React App ',
         category:'personal',
         tech:'React.js, HTML,Css,Netlify,Route ',
@@ -120,6 +138,7 @@ const ProjectData=[
     git:'https://github.com/mohammadshaif/ecommerce-shopping-cart'
 
     },
+   
     {   title:'Panda-Commerce — A e-Commerce Front-end Template ',
         category:'personal',
         tech:'HTML,Css,JavaScript, Bootstrap ',
